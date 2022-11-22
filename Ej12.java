@@ -10,7 +10,8 @@ import java.util.Scanner;
  * programa mostrará al final la calificación obtenida. Pásale el minicuestionario a
  * tus compañeros y pídeles que lo hagan para ver qué tal andan de conocimientos
  * en las diferentes asignaturas del curso.
- * 
+ *
+ *
  */
 
 
@@ -105,7 +106,6 @@ public class Ej12 {
 		}
 		
 		System.out.print("\nEl resultado es: "+res+"/10");
-		
 	}
 }
 
