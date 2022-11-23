@@ -32,19 +32,25 @@ public class Ej15 {
 			
 			case 1:{
 				System.out.print("   "+st+"\n  "+st+st+st+"\n "+st+st+st+st+st+"\n"+st+st+st+st+st+st+st);
+				break;
 				
 			}
 			case 2:{
 				System.out.print(st+"\n"+st+st+st+"\n"+st+st+st+st+st+"\n"+st+st+st+st+st+st+st+"\n"+st+st+st+st+st+"\n"+st+st+st+"\n"+st);
+				break;
 				
 			}
 			case 3:{
 				System.out.print("      "+st+"\n    "+st+st+st+"\n  "+st+st+st+st+st+"\n"+st+st+st+st+st+st+st+"\n  "+st+st+st+st+st+"\n    "+st+st+st+"\n      "+st);
+				break;
 				
 			}
 			case 4:{
 				System.out.print("\n"+st+st+st+st+st+st+st+"\n "+st+st+st+st+st+"\n  "+st+st+st+"\n   "+st);
+				break;
 				
+			}default:{
+				System.out.print("Valor equivocado.");
 			}
 			
 			
