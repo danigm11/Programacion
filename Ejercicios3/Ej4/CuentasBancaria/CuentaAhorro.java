@@ -1,4 +1,14 @@
 package CuentasBancaria;
+/*
+ * CuentaBancaria.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 25/03/2023
+ * 
+ * 
+ * 
+ */
 public class CuentaAhorro extends CuentaBancaria {
   private static double saldoMinimo = 1000;
 
