@@ -1,6 +1,6 @@
 package CuentasBancaria;
 /*
- * CuentaBancaria.java
+ * CuentaAhorro.java
  * 
  * @author Daniel García Mesa 
  * 
