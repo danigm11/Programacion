@@ -1,5 +1,17 @@
 package Ej11;
 import java.text.DecimalFormat;
+
+/*
+ * TarjetaRegalo.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 21/03/2023
+ * 
+ * Clase Tarjeta regalo, contiene un número de tarjeta y el saldo
+ * 
+ * 
+ */
 public class TarjetaRegalo {
   
   int numero;
@@ -29,19 +41,25 @@ public class TarjetaRegalo {
 
     return tarjetaFusion;
   }
-
+  
+ /*
+  * Reduce el saldo si es posible una cantidad
+  *
+  * @params double gasto
+  *
+  */
   void gasta(double gasto) {
     if (gasto > saldo) {
-    System.out.printf("No tiene suficiente saldo para gastar %.2f€\n", gasto);
-  } else {
-    saldo -= gasto;
+     System.out.printf("No tiene suficiente saldo para gastar %.2f€\n", gasto);
+    } else {
+     saldo -= gasto;
     }
-    }
-    @Override
-public String toString() {
-DecimalFormat dosDecimales = new DecimalFormat("0.00");
-return "Tarjeta nº " + numero + " - Saldo " + dosDecimales.format(saldo);
-}
+   }
+  @Override
+   public String toString() {
+    DecimalFormat dosDecimales = new DecimalFormat("0.00");
+    return "Tarjeta nº " + numero + " - Saldo " + dosDecimales.format(saldo);
+  }
 
     
 }
