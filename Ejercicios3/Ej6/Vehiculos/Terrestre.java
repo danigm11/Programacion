@@ -1,5 +1,12 @@
 package Ej6.Vehiculos;
-
+/*
+ * Terrestre.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 23/03/2023
+ * 
+ */
 public class Terrestre extends Vehiculo{
 
   private int numRuedas;
