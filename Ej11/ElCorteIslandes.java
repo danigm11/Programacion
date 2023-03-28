@@ -1,5 +1,13 @@
 package Ej11;
-
+/*
+ * ElCorteIslandes.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * Prueba la clase  TarjetaRegalo y sus métodos.
+ * 
+ * 
+ */
 public class ElCorteIslandes {
   public static void main(String[] args) {
   TarjetaRegalo t1 = new TarjetaRegalo(100);
