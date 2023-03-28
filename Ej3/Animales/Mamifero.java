@@ -1,23 +1,30 @@
 package Ej3.Animales;
-
+/*
+ * Mamifero.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * Clase mamifero, hereda de Animal
+ * 
+ */
 public abstract class Mamifero extends Animal {
   public Mamifero () {
-  super();
+    super();
   }
   public Mamifero (Sexo s) {
-  super(s);
+    super(s);
   }
   public void amamanta() {
-  if (this.getSexo() == Sexo.MACHO) {
-  System.out.println("Soy macho, no puedo amamantar :(");
-  } else {
-  System.out.println("Toma pecho, hazte grande");
-  }
+    if (this.getSexo() == Sexo.MACHO) {
+     System.out.println("Soy macho, no puedo amamantar :(");
+    } else {
+        System.out.println("Toma pecho, hazte grande");
+    }
   }
   public void cuidaCrias() {
-  System.out.println("Estoy cuidando mis crias");
+    System.out.println("Estoy cuidando mis crias");
   }
   public void corre() {
-  System.out.println("Estoy corriendo");
+    System.out.println("Estoy corriendo");
   }
-  }
+ }
