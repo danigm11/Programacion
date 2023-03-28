@@ -1,5 +1,12 @@
 package Ej6.Vehiculos;
-
+/*
+ * Acuatico.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 23/03/2023
+ * 
+ */
 public class Acuatico extends Vehiculo{
   private double eslora;
 
