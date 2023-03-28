@@ -42,10 +42,11 @@ public class Gato {
         System.out.print("Ñam ");
         Gato.sardinas--;
         come--;
-      } else if(Gato.sardinas==0){
+      }
+    }
+    if(Gato.sardinas==0){
         System.out.print("Ya no hay sardinas. ");
         Gato.sardinas--;
-      }
     }
   }
 }
