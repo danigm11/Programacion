@@ -22,9 +22,9 @@ public class Prueba {
 
    while (menu != 8) {
      System.out.println("1. Anda con la bicicleta");
-     System.out.println("2. Haz el caballito con la bicicleta");
+     System.out.println("2. Cambia de dirección con la bicicleta");
      System.out.println("3. Anda con el coche");
-     System.out.println("4. Derrapa con el coche");
+     System.out.println("4. Enciende las luces del coche");
      System.out.println("5. Ver kilometraje de la bicicleta");
      System.out.println("6. Ver kilometraje del coche");
      System.out.println("7. Ver kilometraje total");
@@ -38,7 +38,7 @@ public class Prueba {
          bici.anda(km);
          break;
        case 2:
-         bici.caballito();
+         bici.curva();
          break;
        case 3:
          System.out.print("¿Cuántos kilómetros quiere recorrer? ");
@@ -46,7 +46,7 @@ public class Prueba {
          bmwm3.anda(km);
        break;
        case 4:
-         bmwm3.derrapa();
+         bmwm3.luces();
          break;
        case 5:
          System.out.println("La bicicleta lleva recorridos ");
