@@ -1,5 +1,12 @@
 package Ej6.Vehiculos;
-
+/*
+ * Submarino.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 23/03/2023
+ * 
+ */
 public class Submarino extends Acuatico{
   private double profundidadMaxima;
 
