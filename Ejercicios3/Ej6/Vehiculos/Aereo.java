@@ -1,5 +1,12 @@
 package Ej6.Vehiculos;
-
+/*
+ * Aereo.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 23/03/2023
+ * 
+ */
 public class Aereo extends Vehiculo{
   private final int numAsientos;
 
