@@ -1,4 +1,12 @@
 package Ej2.Vehiculos;
+/*
+ * Vehiculo.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * Clase Vehiculo, clase abstracta de la cual heredan coche y bicicleta
+ * 
+ */
 public abstract class Vehiculo {
   
   private static int vehiculosCreados = 0;
@@ -8,20 +16,19 @@ public abstract class Vehiculo {
   public Vehiculo() {
     this.kilometrosRecorridos = 0;
     }
-    public int getKilometrosRecorridos() {
+  public int getKilometrosRecorridos() {
     return this.kilometrosRecorridos;
-    }
-    public static int getKilometrosTotales() {
+  }
+  public static int getKilometrosTotales() {
     return Vehiculo.kilometrosTotales;
-    }
-    /**
-    * Hace que un vehículo recorra una distancia determinada.
-    *
-    * @param k kilómetros a recorrer
-    */
-    public void anda(int k) {
+  }
+  /**
+  * Hace que un vehículo recorra una distancia determinada.
+  *
+  * @param k kilómetros a recorrer
+  */
+  public void anda(int k) {
     this.kilometrosRecorridos += k;
     Vehiculo.kilometrosTotales += k;
-    }
-    
+  }
 }
