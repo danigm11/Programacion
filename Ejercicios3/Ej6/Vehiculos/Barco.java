@@ -1,5 +1,12 @@
 package Ej6.Vehiculos;
-
+/*
+ * Barco.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 23/03/2023
+ * 
+ */
 public class Barco extends Acuatico{
   private boolean tieneMotor;
 
