@@ -1,5 +1,12 @@
 package Ej6.Vehiculos;
-
+/*
+ * Coche.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 23/03/2023
+ * 
+ */
 public class Coche extends Terrestre{
   private boolean aire;
   public boolean isAire() {
