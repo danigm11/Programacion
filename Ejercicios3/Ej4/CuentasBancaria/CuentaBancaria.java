@@ -1,4 +1,12 @@
 package CuentasBancaria;
+/*
+ * CuentaBancaria.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 25/03/2023
+ * 
+ */
 public abstract class CuentaBancaria {
   private String iban;
   private double saldo;
