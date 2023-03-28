@@ -1,20 +1,29 @@
 package Ej3.Animales;
-
+/*
+ * Animal.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * Clase animal, clase abstracta de la cual heredan el resto de animales
+ * 
+ * 
+ */
 public abstract class Animal {
   private Sexo sexo;
+  
   public Animal () {
-  this.sexo = Sexo.MACHO;
+   this.sexo = Sexo.MACHO;
   }
   public Animal (Sexo s) {
-  this.sexo = s;
+    this.sexo = s;
   }
   public Sexo getSexo() {
-  return this.sexo;
+    return this.sexo;
   }
   public void duerme() {
-  System.out.println("Zzzzzzz");
+    System.out.println("Zzzzzzz");
   }
   public void come(String comida) {
-  System.out.println("Estoy comiendo " + comida);
+    System.out.println("Estoy comiendo " + comida);
   }
-  }
+}
