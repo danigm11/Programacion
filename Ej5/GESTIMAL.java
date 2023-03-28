@@ -55,8 +55,8 @@ public class GESTIMAL {
           }
           System.out.println("Seleccione el articulo que quiere eliminar: ");
           eleccion=s.nextInt();
-          arrayArticulos[numArticulos]=arrayArticulos[eleccion-1];
-          arrayArticulos[numArticulos]= new Articulo(null, null, 0, 0, 0);
+          arrayArticulos[eleccion-1]=arrayArticulos[numArticulos];
+          numArticulos-=1;
           break;
         //Modificación de artículos
         }case 4: {
