@@ -8,7 +8,14 @@ import Ej3.Animales.Ave;
 import Ej3.Animales.Pinguino;
 import Ej3.Animales.Canario;
 import Ej3.Animales.Sexo;
-
+/*
+ * PruebaAnimales.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * Prueba algunas de las clases de animales y sus funciones
+ * 
+ */
 
 public class PruebaAnimales {
   public static void main(String[] args) {
@@ -24,5 +31,5 @@ public class PruebaAnimales {
   marco.tomaElSol();
   marco.duerme();
   }
-  }
+ }
   
