@@ -14,7 +14,7 @@ public class Bicicleta extends Vehiculo{
     }
     
     public void curva() {
-      System.out.println("Toma una curva");
+      System.out.println("Cambia de dirección");
     }
 }
 
