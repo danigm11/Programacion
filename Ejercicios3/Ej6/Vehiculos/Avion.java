@@ -1,5 +1,12 @@
 package Ej6.Vehiculos;
-
+/*
+ * Avion.java
+ * 
+ * @author Daniel García Mesa 
+ * 
+ * 23/03/2023
+ * 
+ */
 public class Avion extends Aereo{
   private double tiempoMaximo;
 
